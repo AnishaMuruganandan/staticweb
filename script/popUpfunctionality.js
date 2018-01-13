@@ -17,13 +17,13 @@ $('#menuCloseBlock').click(function(){
 $('#logInBlock').click(function(){
     $('#menuBlockcontent').hide();
   $('#overlayBlock').show();
-$('#logInPopUp').fadeIn(3000);
+$('#logInPopUp').fadeIn();
 });
 
 $('#signUpBlock').click(function(){
     $('#menuBlockcontent').hide();
   $('#overlayBlock').show();
-$('#signUpPopUp').fadeIn(3000);
+$('#signUpPopUp').fadeIn();
 });
 
 $('#logInPopUpClose').click(function(){
@@ -38,12 +38,12 @@ $('#signUpPopUpClose').click(function(){
 
 $('#signUpBlockMax').click(function(){
   $('#overlayBlock').show();
-$('#signUpPopUp').fadeIn(3000);
+$('#signUpPopUp').fadeIn();
 });
 
 $('#logInBlockMax').click(function(){
   $('#overlayBlock').show();
-$('#logInPopUp').fadeIn(3000);
+$('#logInPopUp').fadeIn();
 });
 
 $('#signUpSwitch').click(function(){
